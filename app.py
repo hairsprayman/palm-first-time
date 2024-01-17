@@ -1,7 +1,7 @@
 from flask import Flask,request,render_template
 import google.generativeai as palm
 app = Flask(__name__)
-palm.configure(api_key="AIzaSyCCT1K99BJ1JbLwhCE7qOcQ5KOZcPJ9ZZ4")
+palm.configure(api_key="AIzaSyC6SmuOs7pOM7Cc7nvRAkN7xgVrHyjMwSo")
 model = {"model" : "models/chat-bison-001"}
 @app.route("/",methods=["GET","POST"])
 def index():
